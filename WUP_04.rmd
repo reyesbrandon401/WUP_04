@@ -60,7 +60,7 @@ summary.aov(model1)
 ```
 ```{r}
 #we specify the margins starting at the bottom and proceeding clockwise - thus 8.7 is the left side margin to hold the names of the factors
-par(mar = c(3, 8.7, 2, 2))
+par(mar = c(3, 14, 2, 2))
 plot(TukeyHSD(model1),las=2)
 ```
   
